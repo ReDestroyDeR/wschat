@@ -3,6 +3,8 @@
 Wanted to do it asynchronous, but considered to stick to the MIO philosophy and implemented everything on raw threads.
 Program is rather synchronous.
 
+Disclaimer: Code is **NOT** clean. Code is **NOT** maintainable. I just wanted to test `ws` crate
+
 ## Usage
 
 Start by `cargo run`
