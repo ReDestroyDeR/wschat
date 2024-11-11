@@ -1,6 +1,5 @@
 use chrono::{DateTime, Utc};
 use serde::{Deserialize, Serialize};
-use uuid::Uuid;
 use ws::{Message, Sender};
 
 #[derive(Eq, PartialEq, Debug, Hash, Clone, Serialize, Deserialize)]
